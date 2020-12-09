@@ -60,7 +60,6 @@
     z-index: 1;
     width: 100%;
     border-bottom: #4a5a6a;
-    border-radius: 3px;
 }
 .drop-menu1 :hover .hover-btn1 , #commonTopbar_mymenu:hover #commonTopbar_tomyCentre, #commonTopbar_help:hover #help_btn{
     color: #fff;
