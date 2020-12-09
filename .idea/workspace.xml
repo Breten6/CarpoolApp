@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b96cd792-8183-431e-81f4-9fcc329e781b" name="Default Changelist" comment="">
+    <list default="true" id="b96cd792-8183-431e-81f4-9fcc329e781b" name="Default Changelist" comment="changed header style">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -65,8 +65,21 @@
       <workItem from="1606413477678" duration="6533000" />
       <workItem from="1606497640262" duration="16249000" />
       <workItem from="1606632661309" duration="942000" />
-      <workItem from="1606707779417" duration="1917000" />
+      <workItem from="1606707779417" duration="3249000" />
+      <workItem from="1606757063183" duration="1571000" />
+      <workItem from="1606885619674" duration="598000" />
+      <workItem from="1607198154253" duration="598000" />
+      <workItem from="1607367058961" duration="5994000" />
+      <workItem from="1607455206327" duration="13250000" />
     </task>
+    <task id="LOCAL-00001" summary="changed header style">
+      <created>1606712673874</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606712673874</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,16 +95,21 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changed header style" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed header style" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606709185417">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606712684850">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606709185417" />
-    <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606709151201">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606712684850" />
+    <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606712613620">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606709151201" />
+    <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606712613620" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606497916060">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
