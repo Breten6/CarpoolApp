@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b96cd792-8183-431e-81f4-9fcc329e781b" name="Default Changelist" comment="changed header style">
+    <list default="true" id="b96cd792-8183-431e-81f4-9fcc329e781b" name="Default Changelist" comment="added index.html and index.css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +70,9 @@
       <workItem from="1606885619674" duration="598000" />
       <workItem from="1607198154253" duration="598000" />
       <workItem from="1607367058961" duration="5994000" />
-      <workItem from="1607455206327" duration="13250000" />
+      <workItem from="1607455206327" duration="14762000" />
+      <workItem from="1607533824853" duration="12321000" />
+      <workItem from="1607632850743" duration="1279000" />
     </task>
     <task id="LOCAL-00001" summary="changed header style">
       <created>1606712673874</created>
@@ -79,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606712673874</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added index.html and index.css">
+      <created>1607487630737</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607487630737</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,17 +108,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changed header style" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed header style" />
+    <MESSAGE value="added index.html and index.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="added index.html and index.css" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606712684850">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607487638125">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606712684850" />
-    <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606712613620">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607487638125" />
+    <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607487575716">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606712613620" />
+    <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607487575716" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606497916060">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

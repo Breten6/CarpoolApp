@@ -5,8 +5,9 @@
 .functionBar{
     width: 100%;
     height: 80px;
-    background: #eee;
+    background: #fff;
     border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
     /*position: relative;*/
     font-size: 12px;
 }
@@ -27,23 +28,37 @@
 .functionBar a{
     font-size: 18px;
     padding: 2px 0;
+    text-decoration: none;
+    color: #4a5a6a;
 }
 .functionBar_carpool{
-    background: #4a5a6a;
+    background: #eee;
 }
-.bar1 input {
+.barS input {
     border: 2px solid #4a5a6a;
     border-radius: 5px;
     background: #fff;
     color: #9E9C9C;
+    /*border: none;*/
+    outline: none;
+    width: 100%;
+    height: 42px;
+    padding-left: 13px;
+    padding-right:46px;
 }
-.bar1 button {
+.barS button {
     top: 0;
     right: 0;
     background: #4a5a6a;
     border-radius: 0 5px 5px 0;
+    border: none;
+    outline: none;
+    height: 42px;
+    width: 42px;
+    cursor: pointer;
+    position: absolute;
 }
-.bar1 button:before {
+.barS button:before {
     content: "\f002";
     font-family: FontAwesome;
     font-size: 16px;
@@ -58,35 +73,13 @@ body {
     margin: 0;
     padding: 0;
     font-weight: 500;
-    /*font-family: "Microsoft YaHei","宋体","Segoe UI", "Lucida Grande", Helvetica, Arial,sans-serif, FreeSans, Arimo;*/
+    font-family: "Microsoft YaHei","宋体","Segoe UI", "Lucida Grande", Helvetica, Arial,sans-serif, FreeSans, Arimo;
 }
 
 div.search {padding: 19px 0;}
 
-form {
+.barS form {
     position: relative;
     width: 300px;
     margin: 0 auto;
-}
-
-input, button {
-    border: none;
-    outline: none;
-
-}
-
-input {
-    width: 100%;
-    height: 42px;
-    padding-left: 13px;
-    padding-right:46px;
-
-}
-
-button {
-    height: 42px;
-    width: 42px;
-    cursor: pointer;
-    position: absolute;
-
 }
