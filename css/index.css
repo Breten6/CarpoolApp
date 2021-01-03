@@ -124,7 +124,8 @@ div.search {padding: 19px 0;}
 .demandItems{
     display: flex;
 }
-a{
+
+.costumer{
     text-decoration: none;
     color: #4a5a6a;
 }

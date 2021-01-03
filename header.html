@@ -2,65 +2,57 @@
 <html lang="en" dir="ltr">
 <head>
     <meta charset="utf-8">
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/header.css">
     <title>头部</title>
 
 </head>
 <body>
-<div id="commonTopbar" class="commonTopbar" style="min-width: 1000px;">
-    <div class="blankspace">
-
-        <div class="Topbar_left">
-            <a id="commonTopbar_home" href="index.html">
-                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-house" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
-                    <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
-                </svg>
-                回到首页</a>
-        </div>
-        <div class="Topbar_right">
-            <div id="commonTopbar_login"><a
-                    href="login.html">登录</a>
-                <span class="gap">|</span>
-                <a
-                        href="register.html">注册</a></div>
-            <div id="commonTopbar_mymenu">
-                <div id="commonTopbar_tomyCentre">
-                    <a href="">个人中心</a>
-                    <span class="arrow"></span></div>
-                <div class="drop-content1">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
-                </div>
-
+<header>
+    <div class="nav-container">
+        <nav class="navbar navbar-expand-lg navbar-light" role="navigation">
+            <div class="brand-container">
+                <a class="navbar-brand nav-element" href="index.html">
+                    回到首页</a></div>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#list-view">
+                <span class="btn-line1"></span>
+                <span class="btn-line2"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="list-view">
+                <ul class="nav navbar-nav nav-pills ml-auto">
+                    <li class="nav-item"><span id="commonTopbar_login"><a class="nav-link combine-link link-left"
+                            href="login.html">登录</a>
+                        <span class="combine-link link-middle">|</span>
+                        <a class="nav-link combine-link link-right"
+                                href="register.html">注册</a></span></li>
+                    <li class="nav-item"><a class="nav-link" href="#0">联系客服</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            帮助中心
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
+                            <a class="dropdown-item" href="#">没有厕纸</a>
+                            <a class="dropdown-item" href="#">夹不断屎</a>
+                            <a class="dropdown-item" href="#">怎么办</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            个人中心
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">买厕纸</a>
+                            <a class="dropdown-item" href="#">大屎棒</a>
+                            <a class="dropdown-item" href="#">割痔疮</a>
+                        </div>
+                    </li>
+                </ul>
             </div>
-            <div class="help-con">
-                <div class="callhelp"><a href="">联系客服</a></div>
-            </div>
-            <div id="commonTopbar_help">
-                <div id="help_btn"><a
-                        href="">帮助中心</a>
-                    <span class="arrow"></span></div>
-                <div class="drop-content1">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
-                </div>
-            </div>
-            <div id="commonTopbar_lan">
-                <a
-                        href="">中文</a>
-                <span class="gap">|</span>
-                <a
-                        href="">EN</a>
-            </div>
-
-
-        </div>
+        </nav>
     </div>
-
-</div>
+</header>
 </body>
 </html>
